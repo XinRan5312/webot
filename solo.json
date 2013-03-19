@@ -1,0 +1,7 @@
+{
+    "run_list": [ 
+		"recipe[vagrant_main::default]", 
+		"recipe[php::default]", 
+		"recipe[memcached::default]"
+	]
+}
